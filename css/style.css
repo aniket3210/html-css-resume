@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 100vh;
+    background-image: url("../images/sun-8066051_1920.jpg");
+    font-family: 'Dancing Script', cursive;
+}
+
+.third-page{
+    background-color:#e1f4f4;
+}
+
+.box1{
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 > h1{
+    font-size: 100px;
+    color: rgb(117, 30, 83);
+}
+
+.box1 > p{
+    font-size: 50px;
+    color: rgb(117, 30, 83);
+}
+
+img{
+    height: 200px;
+    width: 160px;
+    border-radius: 100%;
+}
+
+.lead{
+    width: 450px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.heading{
+    color: rgb(69, 213, 165) !important;
+}
+
+.skills{
+    text-align: center;
+    color: rgb(69, 213, 165) !important;
+    padding-top: 40px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    
+
+}
+
+.mg{
+    height: 180px;
+    width: 180px;
+    padding: 5px;
+    margin: 7px;
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 5px;
+    justify-content: center;
+    width: 600px;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+.info > h5{
+    text-align: start;
+    color: rgb(69, 213, 165) !important;
+    font-family: sans-serif;
+}
+
+.forth-page{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+.forth-page > h1{
+    color: rgb(69, 213, 165) !important;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.forth-page > h5{
+    color: rgb(69, 213, 165) !important;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.inf{
+    padding: 10px;
+    font-family: sans-serif;
+    width: 500px;
+    align-self: center;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.btn{
+    background-color: rgb(240, 191, 191) !important;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    width: 250px;
+    align-self: center;
+}
+
+.btn > a{
+    text-decoration: none;
+    color:white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: rgb(164, 216, 238);
+    padding: 20px;
+}
+
+.links > a{
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+    margin-top: 20px;
+}
+
+.copyright{
+    font-size: 18px;
+    font-family:sans-serif;
+    padding: 20px;
+}
